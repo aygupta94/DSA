@@ -1,4 +1,4 @@
-package searching;
+package searching.easy;
 
 public class _5_OccurenceOfX {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package searching;
+package searching.easy;
 
 public class _4_IndexOfLastOccurrenceInSorted {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package searching;
+package searching.easy;
 
 public class _5_NoOfOnesInSorted {
     public static void main(String[] args) {

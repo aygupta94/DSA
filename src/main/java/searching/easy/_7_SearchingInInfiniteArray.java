@@ -1,4 +1,4 @@
-package searching;
+package searching.easy;
 
 import org.codehaus.plexus.util.Expand;
 

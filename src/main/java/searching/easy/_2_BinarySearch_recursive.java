@@ -1,4 +1,4 @@
-package searching;
+package searching.easy;
 
 public class _2_BinarySearch_recursive {
     public static void main(String[] args) {

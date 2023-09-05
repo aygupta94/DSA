@@ -1,4 +1,4 @@
-package searching;
+package searching.easy;
 
 public class _6_SqrtOfX {
     public static void main(String[] args) {

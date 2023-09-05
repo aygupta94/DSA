@@ -1,4 +1,4 @@
-package searching;
+package searching.easy;
 
 public class _9_FindPeakElement {
 

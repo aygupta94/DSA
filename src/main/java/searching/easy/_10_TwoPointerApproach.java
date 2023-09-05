@@ -1,4 +1,4 @@
-package searching;
+package searching.easy;
 
 /**
  * We have this pair we need to find any pair, whose sum is equal to given input
