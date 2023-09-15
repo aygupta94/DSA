@@ -1,18 +1,24 @@
 package arrays.medium;
 
+
+/*
+returns index of the majority element
+ */
 public class _5_MajorityElement {
     public static void main(String[] args) {
         int arr[] = {8, 3, 4, 8, 8};
-        System.out.println(majorityElement(arr));
+        int arr2[] = {1,3,3,3,2};
+        System.out.println(majorityElement(arr2));
 
     }
 
+    /*
+    Popularly known as Mores voting algorithm
+     */
     static int majorityElement(int arr[]) {
         int n = arr.length;
         int count = 1;
         int res = 0;
-        int currElement = arr[0];
-        int index = 0;
 
         //find a candidate
         for (int i = 1; i < n; i++) {
