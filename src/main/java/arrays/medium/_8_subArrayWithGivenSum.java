@@ -1,6 +1,7 @@
 package arrays.medium;
 
 import java.util.Arrays;
+import java.util.List;
 
 public class _8_subArrayWithGivenSum {
     public static void main(String[] args) {
@@ -8,10 +9,12 @@ public class _8_subArrayWithGivenSum {
         int arr2[] ={1,4,0,0,3,10,5}; // sum =7, o/p -> yes {4,0,0,3}
         int arr3[] ={1,5,3}; // sum=7, o/p-false
         int arr4[] ={4,8,12,5};
-        System.out.println(isSubArrayPresent(arr,33));
-        System.out.println(isSubArrayPresent(arr2,7));
-        System.out.println(isSubArrayPresent(arr3,7));
-        System.out.println(isSubArrayPresent(arr4,17));
+//        System.out.println(isSubArrayPresent(arr,33));
+//        System.out.println(isSubArrayPresent(arr2,7));
+        System.out.println(isSubArrayPresent(arr3,3));
+//        System.out.println(isSubArrayPresent(arr4,17));
+
+        
     }
 
     static boolean isSubArrayPresent(int arr[], int sum) {

@@ -17,7 +17,6 @@ public class _9_FindPeakElement {
     if (n == 0) {
       return arr[0];
     }
-
     while (low <= high) {
       mid = (low + high) / 2;
 
