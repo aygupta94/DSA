@@ -2,6 +2,14 @@ package sorting;
 
 import java.util.Arrays;
 
+/**
+ * Time complexity of Merge Sort is O(nLogn)
+ * For each recursive call the mergeFunction will do Theta(n) work
+ * And how many level of recursion will occur: Theta(log2(n) + 1) --> O(logn)
+ *
+ * total work : O(n) * O(logn) = O(nLogn)
+ * A.S : O(n)
+ */
 public class _4_MergeSort {
 
   public static void main(String[] args) {
