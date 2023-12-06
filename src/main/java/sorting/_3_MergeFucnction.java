@@ -2,6 +2,10 @@ package sorting;
 
 import java.util.Arrays;
 
+/**
+ * Give a array such that it is left and right array are sorted and divided by a middle element.
+ * Your task is to sort the array
+ */
 public class _3_MergeFucnction {
 
   public static void main(String[] args) {
