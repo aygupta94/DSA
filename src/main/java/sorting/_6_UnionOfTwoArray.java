@@ -4,9 +4,11 @@ public class _6_UnionOfTwoArray {
 
     public static void main(String[] args) {
 //        int arr1[] = {1, 2, 3, 3, 3, 4, 4};
-        int arr1[] = {1};
-        int arr2[] = {7, 9 ,11, 14};
 //        int arr2[] = {2, 3, 4, 4, 5, 6};
+//        int arr1[] = {1};
+//        int arr2[] = {7, 9 ,11, 14};
+        int arr1[] = {1,2,3,4,5};
+        int arr2[] = {1,2,3};
 
         union(arr1, arr2);
     }
@@ -52,26 +54,19 @@ public class _6_UnionOfTwoArray {
 
         }
 
-        while (i < n) {
-            if (i > 0 && arr[i] != arr[i - 1]) {
-                System.out.print(arr[i] + " ");
-
-            }
-            i++;
+        while(i<n) {
+          if (i <= 0 || arr[i] != arr[i - 1]) {
+            System.out.print(arr[i] + " ");
+          }
+          i++;
         }
-
-        while (j < m) {
-            if(j==0)
-            {
-                System.out.print(arr2[j] + " ");
-                j++;
-            }
-            else if (j > 0  && arr2[j] != arr2[j - 1]) {
-                System.out.print(arr2[j] + " ");
-
-            }
-            j++;
+        while(j<m) {
+          if (j <= 0 || arr2[j] != arr2[j - 1]) {
+            System.out.print(arr2[j] + " ");
+          }
+          j++;
         }
 
     }
 }
+
