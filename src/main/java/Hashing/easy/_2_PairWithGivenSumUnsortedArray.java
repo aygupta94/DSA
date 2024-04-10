@@ -6,8 +6,8 @@ import java.util.HashSet;
 public class _2_PairWithGivenSumUnsortedArray {
 
     public static void main(String[] args) {
-        int arr[] = {3,2,8,15,-8};
-        int sum = 6; // 15+2
+        int arr[] = {2,3,6};
+        int sum = 8; // 15+2
         System.out.println(isPairNaive(arr, sum));
         System.out.println(isPair2Pointer(arr, sum));
         System.out.println(isPairHashSet(arr, sum));
